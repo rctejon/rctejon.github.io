@@ -415,6 +415,23 @@ body.offcanvas {
       padding-top: 0em;
       padding-bottom: 8em; } }
 
+  .video{
+    position: relative;
+    width: 100%;
+    height: 480px;
+  }
+
+  .video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (min-width: 1200px){
+    .video{
+      height: 600px;
+    }
+  }
+
 .author-img {
   background-size: cover;
   background-position: center center;
